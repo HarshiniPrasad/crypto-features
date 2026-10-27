@@ -1,0 +1,18 @@
+[build-system]
+requires = ["flit_core >=3.2,<4"]
+build-backend = "flit_core.buildapi"
+
+[project]
+name = "crypto-features"
+version = "0.1.0"
+description = "Shared feature engineering for UTS 36120 AMLA AT3, Group 26"
+authors = [{ name = "Group 26" }]
+readme = "README.md"
+requires-python = ">=3.12"
+dependencies = [
+    "pandas>=2.2.2",
+]
+
+[tool.ruff]
+line-length = 99
+src = ["src"]
