@@ -8,15 +8,14 @@ repos, and the Streamlit repo.
 ## Install
 
 ```
-pip install git+https://github.com/<OWNER>/crypto-features.git
+pip install git+https://github.com/HarshiniPrasad/crypto-features.git
 ```
 
-Replace `<OWNER>` with wherever this repo ends up living (a group member's account, or
-a shared org). Pin to a commit or tag once the feature set stabilises, so a later push
-doesn't silently change everyone's features mid-assignment:
+Pin to a commit or tag once the feature set stabilises, so a later push doesn't
+silently change everyone's features mid-assignment:
 
 ```
-pip install git+https://github.com/<OWNER>/crypto-features.git@<commit-or-tag>
+pip install git+https://github.com/HarshiniPrasad/crypto-features.git@<commit-or-tag>
 ```
 
 ## Usage
